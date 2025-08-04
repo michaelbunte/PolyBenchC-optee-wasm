@@ -24,7 +24,7 @@
  * ACCURACY:
  *
  *                      Relative error:
- * arithmetic   domain     # trials      peak         rms
+ * arithmetic   domain     # trials      peak         rmster
  *    DEC       +- 88       50000       4.0e-17     7.7e-18
  *    IEEE     +-MAXLOG     30000       2.6e-16     5.7e-17
  *
