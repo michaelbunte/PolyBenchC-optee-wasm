@@ -6,14 +6,20 @@ on OPTEE. Our additions to PolyBench all occur within the ./wasm_scripts directo
 Choose between `MINI_DATASET`, `SMALL_DATASET`, `MEDIUM_DATASET`,`LARGE_DATASET`, and `EXTRALARGE_DATASET` on line 100 of `./utilities/header-gen.pl`
 
 
-## Our Scripts
+## Scripts
+### Testing REE C
 
 ```
 python3 compile_ree_c_binaries.py
+python3 time_tee_c_programs.py
 ```
+
+### Testing TEE C
+The compilation toolchain is set up at oregon.ee.ucla.edu
 ```
-./clean.sh
+
 ```
+
 
 ## Existing Scripts
 ```
