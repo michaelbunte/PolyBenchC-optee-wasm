@@ -1,3 +1,25 @@
+This provides additional scripts to the PolyBench/C that enable testing for TAs 
+on OPTEE. Our additions to PolyBench all occur within the ./wasm_scripts directory.
+
+## Configuration
+### Change Dataset Size
+Choose between `MINI_DATASET`, `SMALL_DATASET`, `MEDIUM_DATASET`,`LARGE_DATASET`, and `EXTRALARGE_DATASET` on line 100 of `./utilities/header-gen.pl`
+
+
+## Our Scripts
+
+```
+python3 compile_ree_c_binaries.py
+```
+```
+./clean.sh
+```
+
+## Existing Scripts
+```
+
+```
+
 * * * * * * * * * * * * * * *
 * PolyBench/C 4.2.1 (beta)  *
 * * * * * * * * * * * * * * *

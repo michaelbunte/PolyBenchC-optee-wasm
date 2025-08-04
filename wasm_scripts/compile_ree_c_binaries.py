@@ -6,7 +6,7 @@ def main():
     # Paths
     top_dir = Path(__file__).resolve().parents[1]
     wasm_scripts = top_dir / "wasm_scripts"
-    programs_list = wasm_scripts / "program_dirs"
+    programs_list = wasm_scripts / "program_dirs.txt"
     binary_output = wasm_scripts / "ree_c_binaries"
 
     # Ensure output directory exists

@@ -1,8 +1,8 @@
 #!/bin/bash
 
 cd ..
-PROGRAMS_DIRS="./wasm_scripts/program_dirs"
-rm $PROGRAMS_DIRS
+PROGRAMS_DIRS="./wasm_scripts/program_dirs.txt"
+rm $PROGRAMS_DIRS 2> /dev/null
 touch $PROGRAMS_DIRS
 
 find ./datamining/     -type d -links 2 >> "$PROGRAMS_DIRS"
